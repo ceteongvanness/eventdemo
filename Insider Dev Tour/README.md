@@ -1,7 +1,7 @@
 # Getting started with WinML and Emotion model
 ####  Setup
 1. Open the **EmotionML.sln** in **Visual Studio**. **(File path: C:\Users\ceteo\Documents\DevInsider-MachineLearning\Demo\InsiderDevTour18-ML-master\EmotionML)**
-2. Download ![Emotion recognition in faces model](https://gallery.azure.ai/Model/Emotion-recognition-in-faces-FER) and drag and drop the **ONNX** file in **EmotionML.sln**
+2. Download [Emotion recognition in faces model](https://gallery.azure.ai/Model/Emotion-recognition-in-faces-FER) and drag and drop the **ONNX** file in **EmotionML.sln**
 3. **Hightlight** the **Snippet 1 & Snippet 2** and drag and drop into the **Toolbox**.
 4. Make sure **Webcam** in  **Capabilities** from **Package.appxmanifest** is checked.
 5. Make sure **"Microsoft.Toolkit.Uwp.UI.Controls" v3.0** nuget package is installed
