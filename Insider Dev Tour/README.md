@@ -25,8 +25,9 @@ Over the past few years, Artificial Intelligence and Machine Learning has moved 
 2. Open **MainPage.xaml** and add in **```<my:CameraPreview x:Name="Camera" />```**.
 3. Remove comment from this 2 snipplet
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C11.png)
-4. Set a **breakpoint** on the closing bracket of the event handler and run the app
+4. Set a **breakpoint** on the closing bracket of the event handler and **run** the app
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C12.PNG)
+5. Once the app starts it will hit the breakpoint. Show the value of the **```output```** variable.
 
 # CustomVision and AlarmML
 ### Demo Steps
