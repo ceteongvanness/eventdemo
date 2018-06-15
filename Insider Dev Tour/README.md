@@ -19,7 +19,12 @@ Over the past few years, Artificial Intelligence and Machine Learning has moved 
 3. Go to Visual Studio **EmotionML.sln**, click on **FER-Emotion-Recognition.cs** and show them **Input338**
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C8.PNG)
 
-#### 
+#### EmotionML
+1. Make sure to **right click** on the model and click on **Properties** to change the **Build Action** to **```Content```**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C9.png)
+2. Open **MainPage.xaml** and add in **```<my:CameraPreview x:Name="Camera" />```**.
+3. Remove comment from this 2 snipplet
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C11.png)
 
 # CustomVision and AlarmML
 ### Demo Steps
