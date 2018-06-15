@@ -1,3 +1,6 @@
+#### Intelligence at the Edge – Getting Started with Machine Learning
+Over the past few years, Artificial Intelligence and Machine Learning has moved out of the lab and into production systems. Adding intelligence to your experiences, both in the cloud and on the client, is necessary and easier than ever. Understanding how to work with this technology is one of the essential skills for developers today. In this session, we’ll cover machine learning in the cloud and on the client with Azure and Windows ML.
+
 # Getting started with WinML and Emotion model
 ####  Setup
 1. Open the **EmotionML.sln** in **Visual Studio**. **(File path: C:\Users\ceteo\Documents\DevInsider-MachineLearning\Demo\InsiderDevTour18-ML-master\EmotionML)**
