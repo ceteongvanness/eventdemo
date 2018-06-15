@@ -17,6 +17,7 @@ Over the past few years, Artificial Intelligence and Machine Learning has moved 
 2. Open **FER-Emotion-Recognition** ONNX file with **Netron** application in PC and by clicking on the **Input338** box
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C7.png)
 3. Go to Visual Studio **EmotionML.sln**, click on **FER-Emotion-Recognition.cs** and show them **Input338**
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour/Image/C8.PNG)
 
 #### 
 
