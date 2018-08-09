@@ -6,5 +6,5 @@ Woodgrove Distribution:Cuso9786 -> 075391CetETC
 Contoso Shipping: Cozu1562 -> 075391CetETC
 Blockchain Shipping:Rojo2534 -> 075391CetETC
 Simulated Device:Kalo8441 -> 075391CetETC
-Northwind traders Supplychain:Sola4132
-Goverment Regulator:Vamo9013
+Northwind traders Supplychain:Sola4132 -> 075391CetETC
+Goverment Regulator:Vamo9013 -> 075391CetETC
