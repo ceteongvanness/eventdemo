@@ -4,7 +4,7 @@ Password: GDx+crGPShVl560lN96EGCeKlmV3EWKJ47db0oerIzg=
 URL: https://etcheah-klll7j.azurewebsites.net
 Woodgrove Distribution:Cuso9786 -> 075391CetETC
 Contoso Shipping: Cozu1562 -> 075391CetETC
-Blockchain Shipping:Rojo2534
+Blockchain Shipping:Rojo2534 -> 075391CetETC
 Simulated Device:Kalo8441 -> 075391CetETC
 Northwind traders Supplychain:Sola4132
 Goverment Regulator:Vamo9013
