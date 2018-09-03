@@ -1,8 +1,7 @@
 Azure Active Directory Tenant: 
 Application ID: 
 Client Application Key (Password Value): 
-URL: https://etc-p36dig.azurewebsites.net
-
+URL: 
 Woodgrove Distribution > woodgrovedistribution 
 Contoso Shipping > contososhipping 
 Blockchain Shipping > blockchainshipping 
