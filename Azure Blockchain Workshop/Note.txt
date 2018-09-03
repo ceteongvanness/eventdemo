@@ -1,10 +1,11 @@
-AD Domain Name: ceteongvannesshotmail.onmicrosoft.com
-Application ID:e29c7e04-4d16-4b12-9cee-5a90f1dfe370
-Password: GDx+crGPShVl560lN96EGCeKlmV3EWKJ47db0oerIzg=
-URL: https://etcheah-klll7j.azurewebsites.net
-Woodgrove Distribution:Cuso9786 -> 075391CetETC
-Contoso Shipping: Cozu1562 -> 075391CetETC
-Blockchain Shipping:Rojo2534 -> 075391CetETC
-Simulated Device:Kalo8441 -> 075391CetETC
-Northwind traders Supplychain:Sola4132 -> 075391CetETC
-Goverment Regulator:Vamo9013 -> 075391CetETC
+Azure Active Directory Tenant: 
+Application ID: 
+Client Application Key (Password Value): 
+URL: https://etc-p36dig.azurewebsites.net
+
+Woodgrove Distribution > woodgrovedistribution 
+Contoso Shipping > contososhipping 
+Blockchain Shipping > blockchainshipping 
+Simulated Device >simulateddevice 
+Northwind Traders Supplychain >  northwindtraderssupplychain 
+Government Regulator > governmentregulator 
