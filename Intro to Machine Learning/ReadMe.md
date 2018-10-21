@@ -1,14 +1,27 @@
 # Quantile Regression: Car price prediction
 
-1. In Internet Explorer, in the [Microsoft Azure Machine Learning](https://studio.azureml.net) Studio workspace, in the left-hand pane, click **EXPERIMENTS**.
-
-2. On the **experiments** page, click **SAMPLES**.
-3. In the list of samples, click **Quantile Regression: Car price prediction** (note: if there are two similar experiments displayed, select the experiment with the most recent date).
-4. Note that this experiment starts with a dataset **Automobile price data (Raw)**, and then includes a range of modules.
-5. When an experiment gas finished running, all modules will show a green check mark to indicate that they have successfully finished.
-6. In the **Properties** pane, note the start and end times, and the status code; this shows when the experiment was last run and whether the run was successful.
-7. To view the output from the **Score Model** module, double-click the (lower) output port of the **Score Model** module.
-8. Scroll right to locate the **price** and the three **scores** columns.
-9. The output shows the 25th, 50th and 75th percentiles for the price.
-10. Click the **price** column, and note that **Statistics** and **Visualization** are now displayed for this data.
-11. Click the **x** at the top-right of the page, to close the visualization.
+1. In Internet Explorer, go to  [Microsoft Azure Machine Learning](https://studio.azureml.net).
+2. Click on **New** button at the bottom left corner side.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-01.png)
+3. In the left-hand pane, click **EXPERIMENT**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-02.png)
+4. On the **EXPERIMENT** page, click **Quantile Regression: Car price prediction**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-03.png)
+5. Click **OPEN IN STUDIO**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-04.png)
+6. Click on **RUN** and wait the experiment finished running, all modules will show a green check mark to indicate that they have successfully finished.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-05.png)
+**RESULT**
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-06.png)
+7. At the right hand side, Properties pane showing the **START TIME, END TIME** and **STATUS CODE** to show when the experiment was last run, and whether the run was successful.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-07.png)
+8. To view the output, **right click** the **Score model** and select **Scored dataset** then select **Visualize**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-08.png)
+9. Score to the right, you will see the **Price** and 3 score columns. The output show 25, 50 and 75% for the price.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-09.png)
+10. Click on **price** column, the **Statistics** and **Visualization** also displayed the data.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-10.png)
+11. Right click on **Evaluate Model** and select **Evaluation results** then select **Visualize**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-11.png)
+12. Click on each column, you will see note of Statistics for each set of data.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Intro%20to%20Machine%20Learning/Images/AZR-01-12.png)
