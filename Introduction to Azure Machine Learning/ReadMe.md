@@ -19,4 +19,6 @@
 ###### View the modules in the experiment
 1. Zoom in, so that the names of the modules are visible.
 2. Point out that **Movie Ratings** and **IMDB Movie Titles** are the datasets.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Introduction%20to%20Azure%20Machine%20Learning/Images/AZR-02-04.png)
+
 3. Close Internet Explorer.
