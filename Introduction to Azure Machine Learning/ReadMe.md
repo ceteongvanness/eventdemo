@@ -8,8 +8,13 @@
 1. In the **Microsoft Azure Machine Learning Studio** workspace, in the left-hand pane, click **EXPERIMENTS**.
 2. On the **experiements** page, click **SAMPLES**.
 3. In the list of samples, click **Recommender: Movie recommendation**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Introduction%20to%20Azure%20Machine%20Learning/Images/AZR-02-01.png)
+
 4. At the bottom of the workspace, click **SAVE AS**.
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Introduction%20to%20Azure%20Machine%20Learning/Images/AZR-02-02.png)
+
 5. In the **SAVE AS** dialog box, type **My Movie Recommender**, and then click **OK** (the tick).
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Introduction%20to%20Azure%20Machine%20Learning/Images/AZR-02-03.png)
 
 ###### View the modules in the experiment
 1. Zoom in, so that the names of the modules are visible.
