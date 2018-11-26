@@ -1,0 +1,1 @@
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\Android\obj\Debug\MonoAndroid81\WorkingWithWebview.Android.csprojAssemblyReference.cache

@@ -13,3 +13,17 @@ C:\Users\ceteo\Desktop\BotBuilder-Samples-master\CSharp\capability-BotInApps\Wor
 C:\Users\ceteo\Desktop\BotBuilder-Samples-master\CSharp\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.csproj.CopyComplete
 C:\Users\ceteo\Desktop\BotBuilder-Samples-master\CSharp\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.dll
 C:\Users\ceteo\Desktop\BotBuilder-Samples-master\CSharp\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.pdb
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\WorkingWithWebview.dll
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\WorkingWithWebview.pdb
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.csproj.CoreCompileInputs.cache
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.csproj.CopyComplete
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.dll
+C:\Users\AIT\Documents\GitHub\eventdemo\Azure Bot Framework\Azure Bot Mobile App\capability-BotInApps\WorkingWithWebview\obj\Debug\WorkingWithWebview.pdb

@@ -22318,24 +22318,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ceteo\\.nuget\\packages\\": {},
+    "C:\\Users\\AIT\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ceteo\\Desktop\\BotBuilder-Samples-master\\CSharp\\capability-BotInApps\\UWP\\WorkingWithWebview.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\AIT\\Documents\\GitHub\\eventdemo\\Azure Bot Framework\\Azure Bot Mobile App\\capability-BotInApps\\UWP\\WorkingWithWebview.UWP.csproj",
       "projectName": "WorkingWithWebview.UWP",
-      "projectPath": "C:\\Users\\ceteo\\Desktop\\BotBuilder-Samples-master\\CSharp\\capability-BotInApps\\UWP\\WorkingWithWebview.UWP.csproj",
-      "packagesPath": "C:\\Users\\ceteo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ceteo\\Desktop\\BotBuilder-Samples-master\\CSharp\\capability-BotInApps\\UWP\\obj\\",
+      "projectPath": "C:\\Users\\AIT\\Documents\\GitHub\\eventdemo\\Azure Bot Framework\\Azure Bot Mobile App\\capability-BotInApps\\UWP\\WorkingWithWebview.UWP.csproj",
+      "packagesPath": "C:\\Users\\AIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AIT\\Documents\\GitHub\\eventdemo\\Azure Bot Framework\\Azure Bot Mobile App\\capability-BotInApps\\UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ceteo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -22348,8 +22348,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\ceteo\\Desktop\\BotBuilder-Samples-master\\CSharp\\capability-BotInApps\\WorkingWithWebview\\WorkingWithWebview.csproj": {
-              "projectPath": "C:\\Users\\ceteo\\Desktop\\BotBuilder-Samples-master\\CSharp\\capability-BotInApps\\WorkingWithWebview\\WorkingWithWebview.csproj"
+            "C:\\Users\\AIT\\Documents\\GitHub\\eventdemo\\Azure Bot Framework\\Azure Bot Mobile App\\capability-BotInApps\\WorkingWithWebview\\WorkingWithWebview.csproj": {
+              "projectPath": "C:\\Users\\AIT\\Documents\\GitHub\\eventdemo\\Azure Bot Framework\\Azure Bot Mobile App\\capability-BotInApps\\WorkingWithWebview\\WorkingWithWebview.csproj"
             }
           }
         }
