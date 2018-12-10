@@ -26,7 +26,24 @@
 7. Go to **Cretae a resource**. Select **AI + Machine Learning** and click on **Text Analytics**.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%206.png)
-    
-6. Go back to **Microsoft Flow** and click on **Create** button for **Text Analytics**
 
-	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%205.png)
+8. Give your **Text Analytics** a **Name**. Select your **Azure Subscription, Location, Pricing Tier and Resource Group (or create new)**.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%207.png)
+    
+9. Go to **Keys** and copy **Key 1**.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%208.png)
+    
+10. Go to **Overview** copy the **Endpoint**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%209.png)
+    
+11. Paste your **Key 1** to **Account Key** and **Endpoint** to **Site URL**. Click on **Create** button.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2010.png)
+    
+12. Click on **Continue** button.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2011.png)
+    
