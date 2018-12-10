@@ -6,3 +6,5 @@
 1. Go to [Microsoft Flow](https://flow.microsoft.com/en-us/) and sign in without Microsoft account (outlook/hotmail etc).
 
 2. Choose your **country/region** and click on **Get started** button.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%201.png)
