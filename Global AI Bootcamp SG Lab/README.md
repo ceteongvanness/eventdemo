@@ -47,7 +47,16 @@
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2011.png)
     
-13. Enter your email address in **Send Email** **To:** .
+13. Enter your email address in **Send Email** **To:** and don't forget to key in the **Seach Text:**
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2012.png)
+    
+14. After that, click on **Save** button.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2013.png)
+    
+15. Go to your twitter and tweet together with your **Search Text** and you will receive email soon when you tweet.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2014.png)
+
     
