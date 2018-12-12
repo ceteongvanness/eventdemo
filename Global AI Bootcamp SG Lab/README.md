@@ -47,3 +47,7 @@
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2011.png)
     
+13. Enter your email address in **Send Email** **To:** .
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2012.png)
+    
