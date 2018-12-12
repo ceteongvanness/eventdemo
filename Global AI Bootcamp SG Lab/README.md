@@ -55,7 +55,7 @@
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2013.png)
     
-15. Go to your twitter and tweet together with your **Search Text** and you will receive email soon when you tweet.
+15. Go to your twitter and tweet together with your **Search Text** and you will receive email soon after you tweet.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2014.png)
 
