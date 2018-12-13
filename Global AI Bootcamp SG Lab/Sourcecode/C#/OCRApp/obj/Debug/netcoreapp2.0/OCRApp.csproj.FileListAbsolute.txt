@@ -1,0 +1,21 @@
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.csproj.CoreCompileInputs.cache
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.AssemblyInfoInputs.cache
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.AssemblyInfo.cs
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.deps.json
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.runtimeconfig.json
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.runtimeconfig.dev.json
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.dll
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.pdb
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.dll
+C:\Users\rajeesh.raveendran\source\repos\OCRApp\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.pdb
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.deps.json
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.runtimeconfig.json
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.runtimeconfig.dev.json
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.dll
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\bin\Debug\netcoreapp2.0\OCRApp.pdb
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.csprojAssemblyReference.cache
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.csproj.CoreCompileInputs.cache
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.AssemblyInfoInputs.cache
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.AssemblyInfo.cs
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.dll
+C:\Users\ENG SOON CHEAH\Desktop\GlobalAIBootcampDemo\C#\OCRApp\obj\Debug\netcoreapp2.0\OCRApp.pdb
