@@ -59,4 +59,11 @@
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2014.png)
 
+#### With Coding
+Download **Sourcecode** from this [URL](https://github.com/ceteongvanness/eventdemo/tree/master/Global%20AI%20Bootcamp%20SG%20Lab)
+
+1. Change the **subscriptionKey**,**endPoint** and **imageFilePath** in **VisionApiService.cs**.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Bootcamp%20SG%20Lab/Image/Image%201%20-%2015.png)
+
     
