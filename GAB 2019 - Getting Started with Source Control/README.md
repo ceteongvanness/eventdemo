@@ -45,6 +45,22 @@ Version Controlling with Git in Azure Repos - https://www.azuredevopslabs.com/az
 9. When the process has complete, close the browser tab.
 
 #### Exercise 2: Saving work with commits
+#### Task 1: Committing changes
+1. From the **Explorer** tab, open **/PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Models/CartItem.cs**.
+2. Add a comment to the file. It doesn't really matter what the commend is since the goal is just to make a change. Press **Ctrl + S** to save the file.
+3. Select the **Source COntrol** tab to see the one change to the solution.
+4. Enter a commit message of "**My commit**" and press **Ctrl + Enter** to commit it locally.
+5. If asked whether you would like to automatically stage your changes and commit them directly, click **Always**. We will discuss **staging** later in the lab.
+6. Click the **Synchronize Changes** button to synchronize your changes with the server. Confirm the sync if prompted.
+
+#### Task 2: Reviewing commits
+
+#### Exercise 3: Reviewing history
+
+#### Exercise 4: Working with branches
+
+#### Exercise 5: Managing branches from Azure DevOps
+
 
 
 
