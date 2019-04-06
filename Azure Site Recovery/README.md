@@ -19,7 +19,7 @@ For more information, you can see:
 
 Site recovery - https://azure.microsoft.com/en-us/services/site-recovery/
 
-ASR Features
+**ASR Features**
 
 Here are some reasons to use Azure Site Recovery.
 
