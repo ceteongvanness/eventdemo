@@ -16,8 +16,3 @@ Azure Site Recovery works in the following scenarios:
 `&#x2611; Are you considering using Azure Site Recovery?
 For more information, you can see:
 Site recovery - https://azure.microsoft.com/en-us/services/site-recovery/
-
-```
-
-```
-
