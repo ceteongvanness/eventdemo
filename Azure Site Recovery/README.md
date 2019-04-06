@@ -13,7 +13,7 @@ Azure Site Recovery works in the following scenarios:
 * Physical Windows and Linux machines
   You can replicate physical machines running either Windows or Linux to a secondary site or to Azure.
 
-`:white_check_mark:Are you considering using Azure Site Recovery?
+`:heavy_check_mark:Are you considering using Azure Site Recovery?
 
 For more information, you can see:
 
