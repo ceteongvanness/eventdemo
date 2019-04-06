@@ -40,5 +40,7 @@ Here are some reasons to use Azure Site Recovery.
 :heavy_check_mark: Are you interested in any of these specific features? Which one is most important to you?
 
 For more information, you can see:
+
 Site Recovery -  https://azure.microsoft.com/en-us/services/site-recovery/
+
 Site Recovery Pricing - https://azure.microsoft.com/en-us/pricing/details/site-recovery/
