@@ -1,1 +1,3 @@
-# Azure Site Recovery(ASR)Practice
+**Overview of Azure Site Recovery (ASR)**
+**ASR Scenarios**
+You can use Azure Site Recovery to replicate on-premises physical or virtual machines running Windows or Linux. Azure Site Recovery includes support for both Hyper-V and VMware virtual machines. You can replicate data from your on-premises datacenter to Azure or to a secondary sit. Orchestration is built in with Azure Site Recovery, which means that the management of replication, failover, and recovery is included. For example, should virtual machine or service fail in your datacenter, you can use Azure Site Recovery to failover to the replicated in either Azure or your secondary site.
