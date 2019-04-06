@@ -6,11 +6,11 @@ You can use Azure Site Recovery to replicate on-premises physical or virtual mac
 
 Azure Site Recovery works in the following scenarios:
 
-* Hyper-V Virtual Machine Replication
+* **Hyper-V Virtual Machine Replication**
   When Virtual Machine Manager (VMM) is used to manage Hyper-V virtual machines, you can use Azure Site Recovery to replicate them to Azure or to a secondary datacenter. If you do not use VMM to manage your virtual machines, you can use Azure Site Recovery to replicate them to Azure only.
-* VMware Virtual Machine Replication
+* **VMware Virtual Machine Replication**
   You can perform the replication of virtual machines by VMware to a secondary site that is also running VMware. You also can replicate to Azure.
-* Physical Windows and Linux machines
+* **Physical Windows and Linux machines**
   You can replicate physical machines running either Windows or Linux to a secondary site or to Azure.
 
 `:heavy_check_mark:Are you considering using Azure Site Recovery?
@@ -18,3 +18,12 @@ Azure Site Recovery works in the following scenarios:
 For more information, you can see:
 
 Site recovery - https://azure.microsoft.com/en-us/services/site-recovery/
+
+ASR Features
+
+Here are some reasons to use Azure Site Recovery.
+
+* **Eliminate the need for disaster recovery sites**
+  Your environment can be protected by automating the replication of the virtual machines based on policies that you set and control. Site Recovery is heterogeneous and can protect Hyper-V, VMware, and physical servers.
+* **Reduce infrastructure costs**
+  Lower your on-premises infrastructure costs by using Azure as a secondary site for conducting business during outages. Or, eliminate datacenter costs all together by moving to Azure and setting up disaster recovery between Azure regions. You can pre-assess network, storage, and compute resources needed to replicate applications from on-premises to Azure -  and pay only for compute and storage resources needed to run apps in Azure during outages.
