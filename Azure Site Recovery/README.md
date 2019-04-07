@@ -44,3 +44,8 @@ For more information, you can see:
 Site Recovery -  https://azure.microsoft.com/en-us/services/site-recovery/
 
 Site Recovery Pricing - https://azure.microsoft.com/en-us/pricing/details/site-recovery/
+
+**Using ASR: A Look Ahead**
+In this scenario you replicate on-premises Hyper-V VMs to Azure storage. Then, you fail over from on-promises to Azure. After failover, your apps and workloads are available and running on Azure VMs.
+
+The basic architecture of this scenario look like this. The following diagram shows a set of on-premises Hyper-V VMs as the source from which those VMs are then replicated using ASR to the target (Azure).
