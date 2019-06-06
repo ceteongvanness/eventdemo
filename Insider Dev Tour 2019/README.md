@@ -4,11 +4,21 @@
 
 **Demo 1: Using Visual Studio 2019 to create and debug Node.js apps**
 
-1. Click on Create a new project
+1. Click on **Create a new project**
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour%202019/Image/D1%20-%201.png)
 
-2. 
+2. Select **Basic Node.js Express 4 Application** (TypeScript)
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Insider%20Dev%20Tour%202019/Image/D1%20-%202.png)
+
+3. Click **Next**
+
+4. Name the Project : **InsidersTour**
+
+5. Click **Create**
+
+   
 
 
 
