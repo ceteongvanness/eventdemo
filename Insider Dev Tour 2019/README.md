@@ -18,7 +18,15 @@
 
 5. Click **Create**
 
-   
 
+**Demo 3: Building a cross-platform app with Electron and Node.js modules**
 
+1. Open **Visual Studio Code**
 
+2. Open **Windows PowerShell**
+
+3. Navigate to the electron app
+
+   **cd "C:\Users\Haulio - Eng Teong\Desktop\InsiderDevTour\nodeJs\ElectronFluentApp"**
+
+4. Type **npm start** to run the app
