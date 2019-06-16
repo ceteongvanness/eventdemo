@@ -1,0 +1,259 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+
+/***/ "../../../demo-fluentweb/node_modules/fluentweb/src/pointersToCSS/index.js":
+/*!****************************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/node_modules/fluentweb/src/pointersToCSS/index.js ***!
+  \****************************************************************************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pointerTrackers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pointerTrackers */ \"../../../demo-fluentweb/node_modules/fluentweb/src/pointerTrackers/index.js\");\n\n\nif (CSS.registerProperty) {\n  CSS.registerProperty({\n    name: '--pointer-positions',\n    syntax: '<number>+ | none',\n    inherits: true,\n    initialValue: 'none'\n  })\n}\n\n// TOO Expensive Rendering\n\n// addTrackerListener((pointerPositions, pointerIds) => {\n//   document.body.style.setProperty('--pointer-positions', pointerPositions.join(' '))\n// })\n\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/node_modules/fluentweb/src/pointersToCSS/index.js?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/node_modules/fluentweb/src/tilt/index.js":
+/*!*******************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/node_modules/fluentweb/src/tilt/index.js ***!
+  \*******************************************************************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pointersToCSS__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pointersToCSS */ \"../../../demo-fluentweb/node_modules/fluentweb/src/pointersToCSS/index.js\");\n/* harmony import */ var _elementPositionTrackers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../elementPositionTrackers */ \"../../../demo-fluentweb/node_modules/fluentweb/src/elementPositionTrackers/index.js\");\n/* harmony import */ var _pointerTrackers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pointerTrackers */ \"../../../demo-fluentweb/node_modules/fluentweb/src/pointerTrackers/index.js\");\n/* harmony import */ var _elementPositionTrackers_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../elementPositionTrackers/layout */ \"../../../demo-fluentweb/node_modules/fluentweb/src/elementPositionTrackers/layout.js\");\n/* harmony import */ var gl_matrix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gl-matrix */ \"../../../demo-fluentweb/node_modules/gl-matrix/lib/gl-matrix.js\");\n/* harmony import */ var _viewport__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../viewport */ \"../../../demo-fluentweb/node_modules/fluentweb/src/viewport/index.js\");\n\n\n\n\n\n\n\nconst maxAngle = 8\nconst maxDepression = 10\n\nconst getLocalCoordinates = (element, x, y, eventId) => {\n  const mLocaleToWorld = Object(_elementPositionTrackers_layout__WEBPACK_IMPORTED_MODULE_3__[\"getGlobalMatrix\"])(element, eventId)\n  const mWorldToLocale = gl_matrix__WEBPACK_IMPORTED_MODULE_4__[\"mat4\"].create()\n  gl_matrix__WEBPACK_IMPORTED_MODULE_4__[\"mat4\"].invert(mWorldToLocale, mLocaleToWorld)\n\n  const v = gl_matrix__WEBPACK_IMPORTED_MODULE_4__[\"vec3\"].fromValues(x, y, 0)\n  const out = gl_matrix__WEBPACK_IMPORTED_MODULE_4__[\"vec3\"].create()\n  gl_matrix__WEBPACK_IMPORTED_MODULE_4__[\"vec3\"].transformMat4(out, v, mWorldToLocale)\n\n  return { localX: out[0], localY: out[1] }\n}\n\nconst applyTiltEffect = (element, localX, localY) => {\n  const pcX = localX / element.clientWidth\n  const pcY = localY / element.clientHeight\n\n  const rx = 0.5 - pcY\n  const ry = pcX - 0.5\n\n  return () => {\n    element.style.setProperty('--tilt-rotation-x', (rx * maxAngle) + 'Deg')\n    element.style.setProperty('--tilt-rotation-y', (ry * maxAngle) + 'Deg')\n    element.style.setProperty('--tilt-offset-z', (-maxDepression) + 'px')\n  }\n}\n\nconst resetTiltEffect = (element) => {\n  return () => {\n    element.style.setProperty('--tilt-rotation-x', 0)\n    element.style.setProperty('--tilt-rotation-y', 0)\n    element.style.setProperty('--tilt-offset-z', 0)\n  }\n}\n\nconst updateElementPointer = (element, pointerPositions, eventId) => {\n  if (element.__FluentWebLastEventId === eventId) return null\n\n  element.__FluentWebLastEventId = eventId\n\n  Object(_elementPositionTrackers_layout__WEBPACK_IMPORTED_MODULE_3__[\"getGlobalMatrix\"])(element, eventId)\n\n  if (!Object(_viewport__WEBPACK_IMPORTED_MODULE_5__[\"isInViewport\"])(element)) return null\n\n  for (let i = 0; i < pointerPositions.length; i += 2) {\n    const x = pointerPositions[i]\n    const y = pointerPositions[i + 1]\n\n    const { localX, localY } = getLocalCoordinates(element, x, y, eventId)\n\n    if (localX >= 0 && localY >= 0 &&\n      localX <= element.clientWidth && localY <= element.clientHeight) {\n      //\n\n      return applyTiltEffect(element, localX, localY)\n    }\n  }\n  return resetTiltEffect(element)\n}\n\n// Subscribe all classes to layout refresh\nObject(_elementPositionTrackers__WEBPACK_IMPORTED_MODULE_1__[\"addTrackerListenerForClass\"])('.has-tilt', (element, className, eventId) => {\n  // pointerPositions\n  return updateElementPointer(element, _pointerTrackers__WEBPACK_IMPORTED_MODULE_2__[\"pointerPositions\"], eventId)\n})\n\n// Subscribe to pointer move\nObject(_pointerTrackers__WEBPACK_IMPORTED_MODULE_2__[\"addTrackerListener\"])((pointerPositions, _pointerIds, eventId) => {\n  const writeFunctions = []\n  Object(_elementPositionTrackers__WEBPACK_IMPORTED_MODULE_1__[\"getElementsForClassName\"])('.has-tilt').forEach((element) => {\n    updateElementPointer(element, pointerPositions, eventId)\n    return writeFunctions\n  })\n})\n\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/node_modules/fluentweb/src/tilt/index.js?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair1-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair1-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"12e3681a83a0cc5155e640e63e6e3c7f.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair1-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair1.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair1.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c84ad44bdea040e4945760690e160139.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair1.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair2-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair2-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5dcea597bfd5a9471092bac1ce842bd5.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair2-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair2.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair2.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4dc3a02594aca55efd1ea8ef027193f5.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair2.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair3-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair3-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"13b57e31b1042e41495034cf4365b089.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair3-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair3.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair3.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bd8d0902458ae14c64a4f530e3d2a4cb.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair3.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair4-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair4-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bd0b97bb647a16c93d273effb1b7e059.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair4-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair4.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair4.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4bf7127b5322202b31e2186d505496f9.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair4.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair5-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair5-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1018ccc534765b27494c8463119d9a52.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair5-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair5.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair5.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b561df06a3a17f00a41293116156f9a5.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair5.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair6-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair6-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a6a12d7ae807fc6c88cbc184f3faa634.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair6-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair6.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair6.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ce5329cf6532ac92fda7e7aea7736765.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair6.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair7-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair7-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8ad83b5707a303fe55553f2d7e9727ff.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair7-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair7.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair7.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a0c65e134a8bad0d7da179ca14fefbd1.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair7.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair8-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair8-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9aa0647ad5790384e0feb5ddc9cf238b.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair8-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair8.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair8.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f0d0f34f7238ccf0fb6d15dda7ad897b.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair8.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair9-big.jpg":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair9-big.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a294122a800fe170e331cdeaf197421a.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair9-big.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/assets/products/chair9.jpg":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair9.jpg ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"969adf87dd1169854893893f5c9d3962.jpg\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/assets/products/chair9.jpg?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/pages/home/home.html":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/home.html ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<section class=\\\"hero is-medium is-primary is-bold\\\">\\n  <div class=\\\"hero-body\\\">\\n    <div class=\\\"container is-fluid\\\">\\n      <h1 class=\\\"title\\\">\\n        Our new collection\\n      </h1>\\n      <h2 class=\\\"subtitle\\\">\\n        Spring 2019\\n      </h2>\\n      <button class=\\\"has-acrylic-40 is-light has-reveal discover has-text-white is-size-5 has-text-weight-bold has-tilt\\\">\\n        <a>\\n          Discover\\n        </a>\\n      </button>\\n    </div>\\n  </div>\\n</section>\\n\\n<section class=\\\"section products\\\">\\n  <div class=\\\"columns is-multiline\\\">\\n\\n  </div>\\n</section>\\n\\n<div class=\\\"modal\\\">\\n  <div class=\\\"modal-background has-backgroundblur-40 is-dark\\\"></div>\\n  <div class=\\\"modal-content\\\">\\n    <figure class=\\\"image\\\">\\n      <img src=\\\"https://bulma.io/images/placeholders/1280x960.png\\\" alt=\\\"\\\">\\n    </figure>\\n\\n    <div class=\\\"product-description is-dark has-text-light\\\">\\n      <p class=\\\"name title has-text-light\\\">NAME</p>\\n      <div class=\\\"description has-text-light\\\">\\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\\n      </div>\\n      <p class=\\\"price title is-4 has-text-light\\\">1685,90€</p>\\n      <p class=\\\"stock subtitle has-text-light\\\">en stock</p>\\n    </div>\\n  </div>\\n  <button class=\\\"modal-close is-large\\\" aria-label=\\\"close\\\"></button>\\n</div>\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/home.html?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/pages/home/index.js":
+/*!**************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/index.js ***!
+  \**************************************************************************************************/
+/*! exports provided: loadInto */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"loadInto\", function() { return loadInto; });\n/* harmony import */ var _home_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.html */ \"../../../demo-fluentweb/src/pages/home/home.html\");\n/* harmony import */ var _home_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_home_html__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tile_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tile.html */ \"../../../demo-fluentweb/src/pages/home/tile.html\");\n/* harmony import */ var _tile_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tile_html__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _vanilla__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../vanilla */ \"../../../demo-fluentweb/src/vanilla.js\");\n/* harmony import */ var fluentweb_src_tilt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fluentweb/src/tilt */ \"../../../demo-fluentweb/node_modules/fluentweb/src/tilt/index.js\");\n\n\n\n\n\nfunction showModal(pageContainer, product) {\n  const modal = pageContainer.querySelector('.modal');\n  modal.classList.add('is-active');\n  const img = modal.querySelector('.image img');\n  img.src = product.modalSrc;\n  const name = modal.querySelector('.product-description .name');\n  name.innerText = product.name;\n  const description = modal.querySelector('.product-description .description');\n  description.innerText = product.description;\n  const price = modal.querySelector('.product-description .price');\n  price.innerText = product.price;\n  const stock = modal.querySelector('.product-description .stock');\n  stock.innerText = product.stock;\n  document.querySelector('html').classList.add('is-clipped');\n}\n\nfunction hideModal(pageContainer) {\n  pageContainer.querySelector('.modal').classList.remove('is-active');\n  document.querySelector('html').classList.remove('is-clipped');\n}\n\nconst products = [{\n  name: 'AKEDELAN',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair1.jpg */ \"../../../demo-fluentweb/src/assets/products/chair1.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair1-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair1-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'SELTHALMAN',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair2.jpg */ \"../../../demo-fluentweb/src/assets/products/chair2.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair2-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair2-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'KRUTTARNA',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair3.jpg */ \"../../../demo-fluentweb/src/assets/products/chair3.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair3-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair3-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'APPLORA',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair4.jpg */ \"../../../demo-fluentweb/src/assets/products/chair4.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair4-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair4-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'SKALAND',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair5.jpg */ \"../../../demo-fluentweb/src/assets/products/chair5.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair5-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair5-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'KULLARRA',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair6.jpg */ \"../../../demo-fluentweb/src/assets/products/chair6.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair6-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair6-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'DOGATTA',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair7.jpg */ \"../../../demo-fluentweb/src/assets/products/chair7.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair7-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair7-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'TAMOGET',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair8.jpg */ \"../../../demo-fluentweb/src/assets/products/chair8.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair8-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair8-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}, {\n  name: 'TANFLIN',\n  stock: 'in stock',\n  tileSrc: __webpack_require__(/*! ../../assets/products/chair9.jpg */ \"../../../demo-fluentweb/src/assets/products/chair9.jpg\"),\n  modalSrc: __webpack_require__(/*! ../../assets/products/chair9-big.jpg */ \"../../../demo-fluentweb/src/assets/products/chair9-big.jpg\"),\n  price: 1000 + Math.round(Math.random() * 100) * 10 + '.90€',\n  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'\n}];\n\nconst loadTiles = (tilesContainer, pageContainer) => {\n  const loadTile = product => {\n    const root = Object(_vanilla__WEBPACK_IMPORTED_MODULE_2__[\"loadHtml\"])(_tile_html__WEBPACK_IMPORTED_MODULE_1___default.a)[0];\n    const img = root.querySelector('figure > img');\n    img.src = product.tileSrc;\n    const title = root.querySelector('.card-image .title');\n    title.innerText = product.name;\n    const description = root.querySelector('.card-content .description');\n    description.innerText = product.description;\n    const price = root.querySelector('.card-content .price');\n    price.innerText = product.price;\n    const stock = root.querySelector('.card-content .stock');\n    stock.innerText = product.stock;\n\n    root.onpointerup = evt => {\n      showModal(pageContainer, product);\n    };\n\n    return root;\n  };\n\n  products.map(p => loadTile(p)).forEach(node => tilesContainer.appendChild(node));\n};\n\nconst loadInto = async (container, prms) => {\n  Object(_vanilla__WEBPACK_IMPORTED_MODULE_2__[\"loadHTMLInto\"])(container, _home_html__WEBPACK_IMPORTED_MODULE_0___default.a);\n  const tilesContainer = container.querySelector('.section.products > .columns');\n  loadTiles(tilesContainer, container);\n  Object(_vanilla__WEBPACK_IMPORTED_MODULE_2__[\"forEachSelector\"])(container, '.modal-close', el => {\n    el.onpointerup = evt => hideModal(container);\n  });\n};\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/index.js?");
+
+/***/ }),
+
+/***/ "../../../demo-fluentweb/src/pages/home/tile.html":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/tile.html ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"column is-3 has-tilt\\\">\\n  <div class=\\\"card product\\\">\\n    <div class=\\\"card-image card-content\\\">\\n      <figure class=\\\"image\\\">\\n        <img src=\\\"https://bulma.io/images/placeholders/1280x960.png\\\" alt=\\\"Placeholder image\\\" draggable=\\\"false\\\">\\n      </figure>\\n      <p class=\\\"title is-4\\\">John Smith</p>\\n    </div>\\n\\n    <div class=\\\"card-content\\\">\\n\\n      <div class=\\\"description is-light\\\">\\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\\n      </div>\\n\\n      <p class=\\\"price title is-4 is-light\\\">1685,90€</p>\\n      <p class=\\\"stock subtitle is-light\\\">en stock</p>\\n\\n    </div>\\n  </div>\\n</div>\";\n\n//# sourceURL=webpack:///C:/Users/david/Downloads/fluent-web-master/examples/demo-fluentweb/src/pages/home/tile.html?");
+
+/***/ })
+
+}]);
