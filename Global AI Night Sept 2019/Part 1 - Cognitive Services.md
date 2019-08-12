@@ -11,3 +11,6 @@
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-3.png)
 5. Upload a pic **cat.jpeg** from "**C:\Users\Haulio - Eng Teong\Desktop\Global AI Night - Sept 2019\Part 1 - Cognitive Services\ainights-sessionowners-master\sample-images\computer-vision-web-browser-demo**"
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-4.png)
+
+**Extra**: Select **Browse** button and upload the **city.jpeg** image from "**C:\Users\Haulio - Eng Teong\Desktop\Global AI Night - Sept 2019\Part 1 - Cognitive Services\ainights-sessionowners-master\sample-images\computer-vision-web-browser-demo**"
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-5.png)
