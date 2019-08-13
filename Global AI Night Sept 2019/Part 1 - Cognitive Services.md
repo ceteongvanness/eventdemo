@@ -16,3 +16,15 @@
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-5.png)
 
 **Part 2 - Azure Custom Vision**
+
+1. Navigate to [Azure Portal](https://portal.azure.com/).
+
+2. Click **Create a Resource**.
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-6.png)
+
+3. Search for **Custom Vision**.
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-7.png)
+
+4.  Click **Create** button.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-8.png)
