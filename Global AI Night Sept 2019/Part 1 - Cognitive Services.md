@@ -32,7 +32,13 @@
 5. Enter details to create
 
    - a **Name** for the service
+
    - select **SOUTH CENTRAL US** for **Location**
+
    - choose the **S0** for your **pricing** options
+
    - select the **resource group** you created previously for this project.
+
    - click **Create**.
+
+     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-9.png)
