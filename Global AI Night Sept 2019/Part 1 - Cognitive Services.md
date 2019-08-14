@@ -42,3 +42,31 @@
    - click **Create**.
 
      ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-9.png)
+
+6. Navigate to https://www.customvision.ai and choose sign in. Sign in with your Azure credentials account.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-10.png)
+
+7. Click on **New Project**.
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-11.png)
+
+8. Enter following details:
+
+   - **Name**: dog classifier
+   - **Description**: Classification of dogs for an AI application
+   - **Resource Group**: choose the resource group you created your custom vision service.
+   - **Project Type**: Classification
+   - **Classification Types**: Multiclass (Single tag per image)
+   - **Domains**: General
+   - click **Create Project**.
+     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-12.png)
+
+9. Click on **Add images** button.
+
+10. Upload the images from "**C:\Users\Haulio - Eng Teong\Desktop\Global AI Night - Sept 2019\Part 1 - Cognitive Services\ainights-sessionowners-master\sample-images\dogs\beagle**" and add the tag '**beagle**'. Click on **Upload 30 files**.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-13.png)
+
+11. Once you successful you receive a confirmation message and you should see your images are now available in the workspace.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-14.png)
+
+    
