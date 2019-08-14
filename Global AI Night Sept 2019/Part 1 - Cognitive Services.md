@@ -74,3 +74,9 @@
     - Click **add images**
     - Select the 30 new dog images
     - Add the class label(beagle, bernese-mountain-dog, chihuahua, eskimo-dog, german-shepherd, golden-retrieve, maltese-dog)
+
+13. Click **Train**.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-15.png)
+
+14. Select **Fast Training** and click **Train**.
+    
