@@ -69,4 +69,8 @@
 11. Once you successful you receive a confirmation message and you should see your images are now available in the workspace.
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-14.png)
 
-    
+12. Now complete the same steps of uploading and tagging images for the other 6 dog categories in the folder. For each type of dog:
+
+    - Click **add images**
+    - Select the 30 new dog images
+    - Add the class label(beagle, bernese-mountain-dog, chihuahua, eskimo-dog, german-shepherd, golden-retrieve, maltese-dog)
