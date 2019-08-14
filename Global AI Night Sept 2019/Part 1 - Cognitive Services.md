@@ -53,12 +53,19 @@
 8. Enter following details:
 
    - **Name**: dog classifier
+
    - **Description**: Classification of dogs for an AI application
+
    - **Resource Group**: choose the resource group you created your custom vision service.
+
    - **Project Type**: Classification
+
    - **Classification Types**: Multiclass (Single tag per image)
+
    - **Domains**: General
+
    - click **Create Project**.
+
      ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-12.png)
 
 9. Click on **Add images** button.
@@ -76,6 +83,7 @@
     - Add the class label(beagle, bernese-mountain-dog, chihuahua, eskimo-dog, german-shepherd, golden-retrieve, maltese-dog)
 
 13. Click **Train**.
+
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-15.png)
 
 14. Select **Fast Training** and click **Train**.
