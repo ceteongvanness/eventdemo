@@ -79,4 +79,15 @@
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-15.png)
 
 14. Select **Fast Training** and click **Train**.
-    
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-17.png)
+
+15. Once the training process is complete it will take you to Performance tab. Here you will receive machine learning evaluation metrics for your channel.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-18.png)
+
+16. Click on **Quick Test**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-19.png)
+
+17. Click on **Browse local files** and upload the image that you use previously. The image will be analysed and a result returned of what dog the model thinks it is (prediction tag) and the models confidence if its result (prediction probability)
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-20.png)
