@@ -129,3 +129,35 @@
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-26.png)
 
 **Part 3 - Build Custom AI into an Application - Azure Logic Apps**
+
+1. Navigate to [Azure Portal](https://azure.microsoft.com/en-us/).
+
+2. Go to **Storage** and select **Storage Account**.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-27.png)
+
+3. In the storage account creation page enter options to setup your storage accounts:
+
+   - **Subscription**: choose your subscription
+
+   - **Resource Group**: choose the resource group you have been using for this workshop
+
+   - **Storage Account Name**: (must be unique) enter an all lowercase storage account name. 
+
+   - **Location**: your closest data center
+
+   - **Performance**: Standard
+
+   - **Account Kind**: Blob Storage
+
+   - **Replication**: Locally-redundant storage (LRS)
+
+   - **Access Tier**: Hot
+
+   - Select **Review + create**, confirm validation is passed and then select **Create**.
+
+     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-28.png)
+
+4. Once your deployment is complete, go to the resource and review the account settings. Select **Blobs** to review your empty blob storage account.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-29.png)
