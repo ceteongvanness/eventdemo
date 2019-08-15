@@ -168,4 +168,10 @@ Part 1 - Azure Cognitive Services**
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-31.png)
 
-6. Go to Subscription and click on your subscription.
+6. Go to **Subscription** and **click on your subscription**.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-32.png)
+
+7. Go to **Resource providers** and search for **event** and make sure your **Microsoft.EventGrid** is registered.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-33.png)
