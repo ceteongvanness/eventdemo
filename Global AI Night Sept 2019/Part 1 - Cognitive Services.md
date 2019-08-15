@@ -161,3 +161,7 @@
 4. Once your deployment is complete, go to the resource and review the account settings. Select **Blobs** to review your empty blob storage account.
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-29.png)
+
+5. Select the **+ Container** button and create a name for the Container and select **Container (anonymous read access for containers and blobs)** for the public access level setting.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-31.png)
