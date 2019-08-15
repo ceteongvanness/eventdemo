@@ -20,12 +20,14 @@
 1. Navigate to [Azure Portal](https://portal.azure.com/).
 
 2. Click **Create a Resource**.
-   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-6.png)
-
+   
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-6.png)
+   
 3. Search for **Custom Vision**.
+
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-7.png)
 
-4.  Click **Create** button.
+4. Click **Create** button.
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-8.png)
 
@@ -48,6 +50,7 @@
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-10.png)
 
 7. Click on **New Project**.
+
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-11.png)
 
 8. Enter following details:
@@ -71,6 +74,7 @@
 9. Click on **Add images** button.
 
 10. Upload the images from "**C:\Users\Haulio - Eng Teong\Desktop\Global AI Night - Sept 2019\Part 1 - Cognitive Services\ainights-sessionowners-master\sample-images\dogs\beagle**" and add the tag '**beagle**'. Click on **Upload 30 files**.
+
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-13.png)
 
 11. Once you successful you receive a confirmation message and you should see your images are now available in the workspace.
