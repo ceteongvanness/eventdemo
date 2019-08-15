@@ -127,3 +127,5 @@
 23. Go to the **Body**, select **binary** and **upload the image** you use to train before. Click **Send**.
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-26.png)
+
+**Part 3 - Build Custom AI into an Application - Azure Logic Apps**
