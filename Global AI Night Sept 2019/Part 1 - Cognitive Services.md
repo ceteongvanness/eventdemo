@@ -221,3 +221,12 @@ Part 1 - Azure Cognitive Services**
 17. Add **Parse Json**.
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-41.png)
+
+18. In the Parse Json
+
+    - **Content**: select the box and from the Dynamic Content box on the right, select Body
+    - **Schema**: select this box and enter the JSON schema provided in the [logic-app-schema1 file](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Schema/logic-app-schema1.json)
+
+19. Type **custom vision** and select the **Classify an image URL (preview)**
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-42.png)
