@@ -175,3 +175,19 @@ Part 1 - Azure Cognitive Services**
 7. Go to **Resource providers** and search for **event** and make sure your **Microsoft.EventGrid** is registered.
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-33.png)
+
+8. Select **Create a Resource**. Type **Logic App** and select the service.
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-34.png)
+
+9. Create the logic app by entering some setup details like below:
+
+   - **Name**: suitable for the dog classification application
+   - **Subscription**: Choose your subscription
+   - **Resource Group**: select the existing group you have been working for the whole workshop
+   - **Location**: choose the data center closest to you
+   - **Log Analytics**: off
+
+   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-35.png)
+
+   
