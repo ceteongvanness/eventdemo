@@ -107,3 +107,11 @@
 18. Click on **Publish**.
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-21.png)
+
+19. Give the published iteration a name **dogapp** and click **Publish**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-22.png)
+
+20. Click on Prediction URL.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-23.png)
