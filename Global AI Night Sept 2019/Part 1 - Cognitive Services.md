@@ -112,6 +112,18 @@
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-22.png)
 
-20. Click on Prediction URL.
+20. Click on **Prediction** URL.
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-23.png)
+
+21. Copy the URL.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-24.png)
+
+22. Paste the **URL**, enter the **Prediction-Key** and **Content-Type** in **Headers**
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-25.png) 
+
+23. Go to the **Body**, select **binary** and **upload the image** you use to train before. Click **Send**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-26.png)
