@@ -190,4 +190,34 @@ Part 1 - Azure Cognitive Services**
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-35.png)
 
-   
+10. Go to the **logic app** that you created.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-36.png)
+
+11. Select **When Event Grid resource event occurs** option.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-37.png)
+
+12. Click on **Sign in**. 
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-38.png)
+
+13. Select **Default Directory** and click **Sign in**.
+
+14. Click **Continue**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-39.png)
+
+15. Select the option below:
+
+    - **Subscription**: your subscription
+    - **Resource Type**: Microsoft.Storage.StorageAccounts
+    - **Resource Name**: choose your image storage account
+    - **Event Type Item  -1**: Microsoft.Storage.BlobCreated
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-40.png)
+
+16. Click **+ New step**.
+
+17. Add **Parse Json**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-41.png)
