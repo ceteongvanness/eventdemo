@@ -103,3 +103,7 @@
 17. Click on **Browse local files** and upload the image that you use previously. The image will be analysed and a result returned of what dog the model thinks it is (prediction tag) and the models confidence if its result (prediction probability)
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-20.png)
+
+18. Click on **Publish**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-21.png)
