@@ -1,4 +1,6 @@
-**Part 1 - Azure Cognitive Services**
+
+
+Part 1 - Azure Cognitive Services**
 
 **Microsoft Azure Cognitive Services - Computer Vision and Text Analytics**
 
@@ -165,3 +167,5 @@
 5. Select the **+ Container** button and create a name for the Container and select **Container (anonymous read access for containers and blobs)** for the public access level setting.
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-31.png)
+
+6. Go to Subscription and click on your subscription.
