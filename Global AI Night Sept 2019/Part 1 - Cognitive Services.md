@@ -230,3 +230,11 @@ Part 1 - Azure Cognitive Services**
 19. Type **custom vision** and select the **Classify an image URL (preview)**
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-42.png)
+
+20. Now we need to fill in the details of the custom vision process
+
+    - **Project ID**: Find the project ID from the settings logo in the top right of the Custom Vision web page.
+
+      ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-43.png)
+
+    - **Image URL**: Select the input box and on the right side select URL from Parse JSON output
