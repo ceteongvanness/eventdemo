@@ -244,4 +244,17 @@ Part 1 - Azure Cognitive Services**
 
       ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-45.png)
 
-21. 
+21. Choose **next step**. Type for each and select the grey control step for each Once selected in the output from previous step box.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-46.png)
+
+22. Select the box and from Dynamic content select **predictions** from the Parse JSON 2 category.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-47.png)
+
+23. Choose **Add an action**. Search Control, select the control and then from the results, select **Condition**.
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-48.png)
+
+24. In the Condition box, select choose a value. From Dynamic content find 'Predict Tags from Image URL' and then **Probability**. Set the condition to be **Prediction** Probability greater than **0.7**
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-49.png)
