@@ -255,6 +255,24 @@ Part 1 - Azure Cognitive Services**
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-48.png)
 
-24. In the Condition box, select choose a value. From Dynamic content find 'Predict Tags from Image URL' and then **Probability**. Set the condition to be **Prediction** Probability greater than **0.7**
+24. In the Condition box, select choose a value. From Dynamic content find 'Predict Tags from Image URL' and then **Probability**. Set the condition to be **Prediction** **Probability** greater than **0.7**
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-49.png)
+
+25. In the If True box select Add an action
+
+    Search for **Azure Blob Storage** and select the icon for **Create Blob**
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-50.png)
+
+    In connection name enter **results** and select your results blob storage account name from the listed options and select create.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-51.png)
+
+26. In **folder path**, select the **folder icon**, far right, and choose the **container name** you created that is populated.
+
+    Select the **Blob name** field and enter: **result-** (then from the Dynamic contant box under Parse Jsaon (1) select id)
+
+    Under Blob Content, select the field and in the Dynamic Content box on right, select **see more** under the Parse Json 2 section. Then select **tagName**, enter a colon "**:**" and then select **probability**
+
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-52.png)
+
+    
