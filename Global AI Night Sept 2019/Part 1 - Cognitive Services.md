@@ -276,3 +276,7 @@ Part 1 - Azure Cognitive Services**
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-52.png)
 
     
+
+    
+
+    
