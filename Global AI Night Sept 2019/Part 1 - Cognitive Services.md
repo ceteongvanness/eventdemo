@@ -275,6 +275,13 @@ Part 1 - Azure Cognitive Services**
 
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-52.png)
 
+    Finally **save** the logic app in the top action bar
+
+    Once **saved**, lets test the app for the desired outcome. Select **Run** from the top action bar.
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-53.png)
+
+    
+
     
 
     
