@@ -23,8 +23,9 @@ Part 1 - Azure Cognitive Services**
 
 2. Click **Create a Resource**.
    
+
 ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-6.png)
-   
+
 3. Search for **Custom Vision**.
 
    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-7.png)
@@ -238,3 +239,7 @@ Part 1 - Azure Cognitive Services**
       ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-43.png)
 
     - **Image URL**: Select the input box and on the right side select URL from Parse JSON output
+
+    - Connection name: give a name for connection
+
+    - 
