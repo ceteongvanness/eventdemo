@@ -279,6 +279,8 @@ Part 1 - Azure Cognitive Services**
 
     Once **saved**, lets test the app for the desired outcome. Select **Run** from the top action bar.
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-53.png)
+    
+27. Now navigate to your images storage account (easy to find from the resource group section). Choose Blob and select the images container. In there you should see an upload button. Upload one of the images form the Dogs data **testset** folder.
 
     
 
