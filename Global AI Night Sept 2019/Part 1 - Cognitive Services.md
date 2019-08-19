@@ -281,6 +281,9 @@ Part 1 - Azure Cognitive Services**
     ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/P1-53.png)
     
 27. Now navigate to your images storage account (easy to find from the resource group section). Choose Blob and select the images container. In there you should see an upload button. Upload one of the images form the Dogs data **testset** folder.
+![]()
+
+28. Finally navigate to your results blob storage account, select blob, enter the results container and review the file now created there. The contents of the file should show similar to the below -  given the dog image input, the predicted class of the dog and also a confidence score
 
     
 
