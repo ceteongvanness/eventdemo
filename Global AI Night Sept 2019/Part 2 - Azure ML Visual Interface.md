@@ -55,5 +55,17 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S10.png)
 
+**Create New Experiment**
+1. Select **New** from the bottom left corner of the browser
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S8.png)
+
+2. Select **Blank Experiment**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S11.png)
+    
+3. In the top left hand of the workspace select the experiment name text **Experiment created on xx/xx/xxxx** and edit the name of your experiment.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S12.png)
 
 
