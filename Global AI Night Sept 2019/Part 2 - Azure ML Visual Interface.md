@@ -72,5 +72,9 @@ A beginner tutorial on how to build a binary classification machine learning mod
 5. Drag data module onto workspace.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S13.png)
+    
+## Build the Model
+
+**Assign the label attribute to the dataset**
 
 
