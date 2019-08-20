@@ -12,15 +12,15 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 2. Click **Create resource**
 
-![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S1.png)
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S1.png)
 
 3. Select **AI + Machine Learning** then **Machine Learning service workspace**
 
-![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S2.png)
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S2.png)
 
 4. Fill in required fields and select **Review + Create** then select **Create**
 
-![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S3.png)
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S3.png)
 
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 
