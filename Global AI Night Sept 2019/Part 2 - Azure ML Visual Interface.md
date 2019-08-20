@@ -8,11 +8,11 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 **Create Resource in Azure**
 
-1. Go to [Azure Portal](https://portal.azure.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/).
+1. Go to [Azure Portal](https://portal.azure.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 
-2. Click **Create resource**.
+2. Click **Create resource**
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S1.png)
 
-   ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global AI Night Sept 2019/Images/S1.png)
-
-3. Select **AI + Machine Learning** then **Machine Learning service workspace**.
+3. Select **AI + Machine Learning** then **Machine Learning service workspace**
+![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S2.png)
 
