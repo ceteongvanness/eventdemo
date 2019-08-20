@@ -40,6 +40,20 @@ A beginner tutorial on how to build a binary classification machine learning mod
 5. This will open a new tab for the **Visual interface for Azure Machine Learning Service**.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S7.png)
+    
+**Getting data into Azure Machine Learning Visual Interface**
+1. Select **New** from the bottom left corner of the browser
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S8.png)
+    
+2. From the left nav bar select **Datasets**
+3. Select **Upload from Local File**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S9.png)
+4. Navigate to downloaded data and select it to be uploaded.
+5. Update the name and a description (its helpful to have detailed description once there are lots of datasets uploaded)
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S10.png)
 
 
 
