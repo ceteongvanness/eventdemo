@@ -37,7 +37,7 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S6.png)
     
-5. This will open a new tab for the Visual interface for Azure Machine Learning Service.
+5. This will open a new tab for the **Visual interface for Azure Machine Learning Service**.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S7.png)
 
