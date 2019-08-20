@@ -24,4 +24,6 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S4png)
+
 
