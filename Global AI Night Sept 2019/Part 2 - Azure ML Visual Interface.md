@@ -67,5 +67,10 @@ A beginner tutorial on how to build a binary classification machine learning mod
 3. In the top left hand of the workspace select the experiment name text **Experiment created on xx/xx/xxxx** and edit the name of your experiment.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S12.png)
+    
+4. Go to **My Datasets** to find the data uploaded OR use the import module to import from the github csv link.
+5. Drag data module onto workspace.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S13.png)
 
 
