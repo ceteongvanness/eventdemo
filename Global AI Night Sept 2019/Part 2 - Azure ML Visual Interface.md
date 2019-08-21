@@ -76,5 +76,20 @@ A beginner tutorial on how to build a binary classification machine learning mod
 ## Build the Model
 
 **Assign the label attribute to the dataset**
+1. Under the **Data Transformation** > Manipulation drag and drop the **Edit Metadata** module onto the workspace
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S14.png)
+    
+2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S17.png)
+    
+3. Click on the **Edit Metadata** and select **Edit Columns** from the right hand side of the workspace.
+
+`	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S15.png)
+
+3. Leave the default configuration and type **qualityBool** into the textbox and click **OK**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S16.png)
 
 
