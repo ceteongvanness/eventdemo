@@ -125,7 +125,7 @@ We now have created an experiment and have imported the data. Let us build the m
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S24.png)
     
-4. Select exclude column **quality**
+4. Select exclude column **quality** and **qualityBool**
 5. Select the arrow to move the highlight feature into the **Selected Columns** box and click **OK**
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S25.png)
@@ -180,22 +180,40 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 We now have a trained model in Azure Machine Learning Visual Interface. Let visualize our results to see how it performed.
 1. **Right click** on the button circle of the **Evaluate Model** Module.
 2. Select **Visualize** from the menu that popped up
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S33.png)
 3. Our accuracy is ok, but we can probably do better.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S34.png)
 
 **Deploy the Web Service**
 
 Once the model has an acceptable or **good enough** accuracy its time to deploy your model to a web service.
 
 1. Click **Create predictive experiment** on the bottom nav of the workspace.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S35.png)
+    
 2. Click **Run** on the predictive experiment, select the compute and click **Run**
-3. Now the model you created will show up under **Trained Models** in the left nav of the workspace. This allows you to import trained models into different experiments
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S36.png)
+    
+3. Now the model you created will show up under **Trained Models** in the left nav of the workspace. This allows you to import trained models into different experiments.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S37.png)
+    
 4. Click **Deploy Web Service** in the bottom nav of the workspace.
+	
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S38.png)
+    
 5. Now we need to create a web service compute target (if you dont already have one)
 6. Click **Create New** and then click the **Go to azure portal link** think will open a new tab and bring you to the azure machine learning workspace resource with compute selected from the left hand nav. Follow the instructions in the pane to create the compute target for the web service.
-7. Once you have created the compute target, click refresh in the corner of the pane to show the newly created compute target
+
 8.  Select the Compute target and click **Deploy**
 
-
-
+**Test the Web Service**
+1. Select the **Web Service** icon on the left nav of the workspace. The web service that was created will be listed.
+2. Click the web service that was created.
+3. Here you can test and get the information needed to consume the API created.
 
 
