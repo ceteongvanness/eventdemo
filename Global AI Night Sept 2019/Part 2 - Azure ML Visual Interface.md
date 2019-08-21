@@ -91,5 +91,25 @@ A beginner tutorial on how to build a binary classification machine learning mod
 3. Leave the default configuration and type **qualityBool** into the textbox and click **OK**
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S16.png)
+    
+**The First Run of the Experiment**
+1. Select **Run** from the button of the workspace
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S18.png)
+    
+2. Select **Create New** to create a new compute target
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S19.png)
+    
+3. Enter a name for the new compute target
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S20.png)
+    
+4. Select **Run**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S21.png)
+    
+**Select Feature Columns**
+1. Under **Data Transformation** > **Manipulation** drag and drop the **Select Columns in dataset** module onto the workspace
 
 
