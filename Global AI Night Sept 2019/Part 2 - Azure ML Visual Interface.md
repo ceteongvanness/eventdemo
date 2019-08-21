@@ -185,6 +185,8 @@ We now have a trained model in Azure Machine Learning Visual Interface. Let visu
 3. Our accuracy is ok, but we can probably do better.
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S34.png)
+    
+=== END ====
 
 **Deploy the Web Service**
 
