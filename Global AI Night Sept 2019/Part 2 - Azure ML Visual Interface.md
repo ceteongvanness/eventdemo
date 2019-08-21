@@ -152,6 +152,29 @@ When you train the model the standard practice is to split your data to train an
 3. Select the **Split Data** module and change the split from **0.5** to **0.7**
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S29.png)
+    
+**Train, Score and Evaluate the Model**
+
+Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
+
+1. Add the following modules to the workspace: **Two-Class Logistic Regression**, **Train Model**, **Score Model**, **Evaluate Model**
+
+	*hint: if you have question about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get information about how the module works and help with data science terms.*
+2. Connect them together as displayed below
+    
+    ![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S30.png)
+    
+3. Select the **Train Model** module and click **Edit Columns** in the right side of the workspace
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S31.png)
+    
+4. Type **qualityBool** into the textbox to indicate the dataset label
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S32.png)
+    
+5. **Run** the Experiment
+
+
 
 
 
