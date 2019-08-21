@@ -76,6 +76,9 @@ A beginner tutorial on how to build a binary classification machine learning mod
 ## Build the Model
 
 **Assign the label attribute to the dataset**
+
+We now have created an experiment and have imported the data. Let us build the model. In the left hand nav there are different modules that you can drag and drop onto the workspace to build the model.
+
 1. Under the **Data Transformation** > Manipulation drag and drop the **Edit Metadata** module onto the workspace
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S14.png)
@@ -88,7 +91,7 @@ A beginner tutorial on how to build a binary classification machine learning mod
 
 `	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S15.png)
 
-3. Leave the default configuration and type **qualityBool** into the textbox and click **OK**
+3. Leave the default configuration and type **qualityBool** into the textbox and click **OK**. Change the **Data Type** to **Boolean**
 
 	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S16.png)
     
@@ -111,5 +114,44 @@ A beginner tutorial on how to build a binary classification machine learning mod
     
 **Select Feature Columns**
 1. Under **Data Transformation** > **Manipulation** drag and drop the **Select Columns in dataset** module onto the workspace
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S22.png)
+    
+2. Connect the modules together be clicking and dragging on the circles like a Visio diagram.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S23.png)
+    
+3. Click on the **Select Columns in dataset** and select **Edit Columns** from the right hand side of the workspace
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S24.png)
+    
+4. Select exclude column **quality**
+5. Select the arrow to move the highlight feature into the **Selected Columns** box and click **OK**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S25.png)
+    
+**Visualize the Data**
+
+Data visualizations are an important part of the data science process.
+1. To visualize the data, **right click** on the **Edit Metadata** module and select **Visualize**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S26.png)
+
+2. Select each column to see the data visualized on the right side.
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S27.png)
+    
+**Split the Data**
+
+When you train the model the standard practice is to split your data to train and score your model. 70% trains the model and 30% scores the model to see how well the training went. Understand that true model accuracy should be tested on unseen data outside of this 30% score. This score gives you an idea of how the model is performing but is not law and sometimes misleading.
+1. In the left nav type **Split Data** in the textbox at the top
+2. Drag and drop the module onto the workspace and connect it to the existing modules
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S28.png)
+    
+3. Select the **Split Data** module and change the split from **0.5** to **0.7**
+
+	![](https://github.com/ceteongvanness/eventdemo/blob/master/Global%20AI%20Night%20Sept%202019/Images/S29.png)
+
 
 
